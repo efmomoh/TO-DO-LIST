@@ -1,5 +1,6 @@
-                      WEBPACK APP
-                                  
+                  [MY FAVOURITE TO-DO-LIST USING WEBPACK BUNDLER]
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -20,9 +21,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 HTML/CSS & JavaScript Webpack App<a name="about-project"></a>
+# 📖 HTML/CSS/JavaScript using Webpack Bundler [TO-DO-LIST]<a name="about-project"></a>
 
--WEBPACK APP - The  Awesome Books page is my first Microverse  Awesome Books project using ES6 syntaxes and modules. In this project, we use HTML, CSS, and JavaScript and ES6 Modules by adding an index, JS and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+-TO-DO-LIST - The Awesome Books page is my first Microverse Awesome Books project using ES6 syntaxes and modules. In this project, we use HTML, CSS, and JavaScript and ES6 Modules and Webpack bundler by adding an index, JS and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,12 +54,12 @@
 
 ### Prerequisites
 
-
 1. Computer
 2. Internet
 3. Web Browser
 4. Git
 5. Code Editor
+6. Setup Webpack using npm
 
 ### Setup
 
@@ -66,7 +67,7 @@ Clone this repository to your desired folder Enter the following commands in the
 
 ```sh
   git clone git@github.com:efmomoh/Webpack-demo.git
-  cd awesome-books
+  cd Webpack-demo
 ```
 
 ### Install
@@ -74,7 +75,7 @@ Clone this repository to your desired folder Enter the following commands in the
 Install this project with the following command in the terminal:
 
 ```sh
- npm install 
+ npm install
 
 ```
 
@@ -91,11 +92,13 @@ To run the project,
 ```sh
    1. npx hint.
    2. npx stylelint "**/*.{css,scss}"
+   3. npm run build
+   4. npm start
 ```
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://efmomoh.github.io/demo-feature-1/)
-
+- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/)
 
 ## 👥 Author <a name="authors"></a>
 
@@ -108,9 +111,9 @@ To run the project,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Add books
-- Remove books
-- Adds Author
+
+- Add TO-DO-LIST
+- Remove TO-DO-LIST
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +133,6 @@ If you like this project please give it a star and follow me on GitHub LinkedIn 
 I would like to thank Creative Commons for the hard work put in as a team for this awesome UX Design. Hence, this project was built based on Creative Commons legal designs. Thanks, team for the success!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
