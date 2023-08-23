@@ -34,6 +34,7 @@
     <li><a href="https://html.spec.whatwg.org/">HTML</a></li>
     <li><a href="https://www.w3.org/TR/CSS/#css">CSS</a></li>
     <li><a href="#">JavaScript</a></li>
+    <li><a href="#">Webpack</a></li>
   </ul>
 </details>
 
@@ -44,6 +45,7 @@
 - Add the styling
 - Use DOM Manipulation
 - Add modules using ES6 Syntaxes
+- Use Webpack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
