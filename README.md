@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 HTML/CSS & JavaScript capstone project - Conference page<a name="about-project"></a>
+# 📖 HTML/CSS & JavaScript Webpack App<a name="about-project"></a>
 
 -WEBPACK APP - The  Awesome Books page is my first Microverse  Awesome Books project using ES6 syntaxes and modules. In this project, we use HTML, CSS, and JavaScript and ES6 Modules by adding an index, JS and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
