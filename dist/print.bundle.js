@@ -1,4 +1,3 @@
-/*eslint-disable*/
 "use strict";
 (self["webpackChunkwebpack_demo"] = self["webpackChunkwebpack_demo"] || []).push([["print"],{
 
