@@ -1,6 +1,5 @@
                   [MY FAVOURITE TO-DO-LIST USING WEBPACK BUNDLER]
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -47,6 +46,10 @@
 - Use DOM Manipulation
 - Add modules using ES6 Syntaxes
 - Use Webpack
+- Add TO-DO-LIST
+- Delete TO-DO-LIST
+- Drag TO-DO-LIST
+- Edith List Item
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +116,9 @@ To run the project,
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add TO-DO-LIST
-- Remove TO-DO-LIST
+- Delete TO-DO-LIST
+- Drag TO-DO-LIST
+- Edith List Item
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -8,20 +8,26 @@
   <script src="https://kit.fontawesome.com/bd260a0fea.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  
   <section>
-<div id="todo-list"><h1>To-Do List<i class="fa-solid fa-arrows-rotate"></i></h1>
+    <div id="todo-list">
+      <h1>To-Do List<i class="fa-solid fa-arrows-rotate"></i></h1>
     
-    <input type="text" id="new-task" placeholder="Add a task ...">
-      <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
 
-    <div class="me-1">
-    <ul id="task-list" class="drag-list"></ul>
+      <div class="add-task-wrapper">
+        <input type="text" id="new-task" placeholder="Add a task ...">
+          <button type="submit" id="add-task-btn">Add Task</button>
+      </div>
 
-    </div>
+
+      <div class="me-1">
+        <ul id="task-list" class="drag-list"></ul>
+      </div>
+
       <button id="clear-list">Clear all completed</button>
     </div>
   </section>
-  
+
   <script src="index.js"></script>
 </body>
 </html>

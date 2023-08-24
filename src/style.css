@@ -50,11 +50,34 @@
     padding: 2px 1px 0 6px;
     font-size: 1rem;
     font-weight: 700;
-    width: 87%;
+    width: 75%;
     border: 0;
     margin-left: 0.5rem;
     background-color: #f7f7f9;
     border-bottom: 1px solid #fff;
+  }
+
+  .add-task-wrapper {
+    height: auto;
+    width: 100%;
+    background-color: #f7f7f9;
+    border-bottom: 1px solid #fff;
+  }
+
+  #add-task-btn {
+    margin-left: auto;
+    font-size: 0.7rem;
+    color: #000;
+    height: 2rem;
+    position: fixed;
+    border: 0;
+    background-color: #f7f7f9;
+  }
+
+  #add-task-btn:hover {
+    color: #6060ff;
+    background-color: #fff;
+    text-decoration: underline;
   }
 
   .task-description {
@@ -89,17 +112,11 @@
     font-size: 0.6rem;
   }
 
-  .fa-rotate-90 {
-    margin-left: auto;
-    font-size: 0.7rem;
-    padding-right: 0.5rem;
-  }
-
-  .fa-ellipsis-vertical {
+  .fa-trash-can {
     margin-left: auto;
     height: auto;
     width: 1%;
-    margin-right: 0.8rem;
+    margin-right: 1.2rem;
   }
 
   .task.dragging {
@@ -157,16 +174,40 @@
   }
 
   #new-task {
+    color: #f7f7f9;
     height: 2rem;
     text-align: start;
     padding: 2px 1px 0 6px;
     font-size: 1rem;
     font-weight: 700;
-    width: 94%;
+    width: 86.5%;
     border: 0;
     margin-left: 0.5rem;
     background-color: #f7f7f9;
+  }
+
+  .add-task-wrapper {
+    height: auto;
+    width: 100%;
+    background-color: #f7f7f9;
     border-bottom: 1px solid #fff;
+  }
+
+  #add-task-btn {
+    color: #000;
+    font-size: 0.9rem;
+    width: 6%;
+    height: 2rem;
+    position: fixed;
+    border: 0;
+    background-color: #f7f7f9;
+    padding-right: 0.1px;
+  }
+
+  #add-task-btn:hover {
+    color: #fff;
+    background-color: #6070ff;
+    text-decoration: underline;
   }
 
   .task-description {
@@ -202,17 +243,11 @@
     font-size: 0.6rem;
   }
 
-  .fa-rotate-90 {
-    margin-left: auto;
-    font-size: 0.7rem;
-    padding-right: 0.5rem;
-  }
-
-  .fa-ellipsis-vertical {
+  .fa-trash-can {
     margin-left: auto;
     height: auto;
     width: 1%;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
   }
 
   .task.dragging {
