@@ -12,7 +12,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-- [🚀 Live Demo ](#-live-demo-)
+<!-- - [🚀 Live Demo ](#-live-demo-) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -99,9 +99,9 @@ To run the project,
    4. npm start
 ```
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/)
+- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/) -->
 
 ## 👥 Author <a name="authors"></a>
 
