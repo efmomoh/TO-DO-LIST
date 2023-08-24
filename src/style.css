@@ -45,6 +45,7 @@
   }
 
   #new-task {
+    color: #000;
     height: 2rem;
     text-align: start;
     padding: 2px 1px 0 6px;
@@ -69,7 +70,6 @@
     font-size: 0.7rem;
     color: #000;
     height: 2rem;
-    position: fixed;
     border: 0;
     background-color: #f7f7f9;
   }
@@ -174,7 +174,7 @@
   }
 
   #new-task {
-    color: #f7f7f9;
+    color: red;
     height: 2rem;
     text-align: start;
     padding: 2px 1px 0 6px;
@@ -196,9 +196,9 @@
   #add-task-btn {
     color: #000;
     font-size: 0.9rem;
-    width: 6%;
+    font-weight: 700;
+    width: 10%;
     height: 2rem;
-    position: fixed;
     border: 0;
     background-color: #f7f7f9;
     padding-right: 0.1px;
