@@ -1,9 +1,9 @@
 // index.js
 
 import "./style.css";
+import { initTodoList } from "./newFun.js";
 
 let tasks = [];
-console.log(tasks)
 
 const taskList = document.getElementById("task-list");
 const addTaskButton = document.querySelector("#add-task-btn");
@@ -26,62 +26,19 @@ const performJob = () => {
   tasks.forEach((task, index) => {
     const taskItem = document.createElement("li");
     taskItem.className = "task";
+    taskItem.setAttribute("draggable", true);
+    taskItem.setAttribute("data-index", task.index);
     taskItem.innerHTML = `
-      <input type="checkbox" ${
-        task.completed ? "checked" : ""
-      } data-index="${index}">
+      <input type="checkbox" ${task.completed ? "checked" : ""} data-index="${
+      index + 1
+    }">
       <span class="task-description">${task.description}</span>
-      <i class="fa-regular fa-trash-can" data-index="${index}"></i>
+      <i class="fa-regular fa-trash-can" data-index="${index + 1}"></i>
     `;
     taskList.appendChild(taskItem);
   });
 
-  const taskItems = document.querySelectorAll(".task");
-  taskItems.forEach((taskItem, index) => {
-    taskItem.setAttribute("draggable", true);
-
-    taskItem.addEventListener("dragstart", (event) => {
-      event.dataTransfer.setData("text/plain", index);
-    });
-
-    taskItem.addEventListener("dragover", (event) => {
-      event.preventDefault();
-    });
-
-    taskItem.addEventListener("drop", (event) => {
-      event.preventDefault();
-      const fromIndex = parseInt(event.dataTransfer.getData("text/plain"));
-      const toIndex = index;
-
-      const [movedTask] = tasks.splice(fromIndex, 1);
-      tasks.splice(toIndex, 0, movedTask);
-
-      updateIndexes();
-      saveTasksToLocalStorage();
-      performJob();
-    });
-
-       const taskDescription = taskItem.querySelector(".task-description");
-       taskDescription.addEventListener("click", () => {
-         const newDescription = prompt(
-           "Edit task description:",
-           tasks[index].description
-         );
-         if (newDescription !== null) {
-           tasks[index].description = newDescription;
-           saveTasksToLocalStorage();
-           performJob();
-         }
-       });
-
-    const deleteButton = taskItem.querySelector(".fa-trash-can");
-    deleteButton.addEventListener("click", () => {
-      tasks.splice(index, 1);
-      updateIndexes();
-      saveTasksToLocalStorage();
-      performJob();
-    });
-  });
+  initTodoList(tasks, updateIndexes, performJob);
 };
 
 addTaskButton.addEventListener("click", () => {
@@ -90,9 +47,10 @@ addTaskButton.addEventListener("click", () => {
     const newTask = {
       description: newTaskDescription,
       completed: false,
+      index: tasks.length + 1,
     };
     tasks.push(newTask);
-    updateIndexes();
+    newTask.index = tasks.length;
     saveTasksToLocalStorage();
     performJob();
     newTaskInput.value = "";
@@ -101,11 +59,11 @@ addTaskButton.addEventListener("click", () => {
 
 clearListButton.addEventListener("click", () => {
   tasks = [];
+  updateIndexes();
   saveTasksToLocalStorage();
   performJob();
 });
 
-// Load tasks from local storage or use an empty array
 const savedTasks = JSON.parse(localStorage.getItem("tasks"));
 tasks = savedTasks || [];
 
