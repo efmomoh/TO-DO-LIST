@@ -101,7 +101,7 @@ To run the project,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/)
+/*- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/)*/
 
 ## 👥 Author <a name="authors"></a>
 
