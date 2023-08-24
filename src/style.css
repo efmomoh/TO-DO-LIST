@@ -250,6 +250,10 @@
     margin-right: 1rem;
   }
 
+  .fa-trash-can:hover {
+    color: red;
+  }
+
   .task.dragging {
     opacity: 0.1;
     cursor: grabbing;
