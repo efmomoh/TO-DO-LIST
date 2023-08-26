@@ -7,7 +7,7 @@ export const initStatusUpdates = (
   saveTasksToLocalStorage
 ) => {
   const checkboxes = document.querySelectorAll("input[type='checkbox']");
-  console.log(checkboxes);
+
   checkboxes.forEach((taskItem) => {
     const checkbox = taskItem.querySelector("input[type='checkbox']");
     checkbox.addEventListener("change", () => {
@@ -25,7 +25,7 @@ export const initStatusUpdates = (
 
   const savedTasks = JSON.parse(localStorage.getItem("tasks"));
   tasksArray = savedTasks || [];
-
+  saveTasksToLocalStorage();
   updateIndexes();
   performJob();
 };

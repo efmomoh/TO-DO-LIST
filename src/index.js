@@ -56,3 +56,11 @@ addTaskButton.addEventListener("click", () => {
     newTaskInput.value = "";
   }
 });
+
+// Load tasks from local storage when the page loads or reloads
+window.addEventListener("load", () => {
+  const savedTasks = JSON.parse(localStorage.getItem("tasks"));
+  tasks = savedTasks || [];
+  saveTasksToLocalStorage();
+  performJob();
+});
