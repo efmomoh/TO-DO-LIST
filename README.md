@@ -22,7 +22,7 @@
 
 # 📖 HTML/CSS/JavaScript using Webpack Bundler [TO-DO-LIST]<a name="about-project"></a>
 
--TO-DO-LIST - The AWESOME TO-DO-LIST PROJECT is my first Microverse TO-DO-LIST Project build using ES6 syntaxes and modules. In this project, we use HTML, CSS, JavaScript and ES6 Modules and Webpack bundler by adding an index, JS, and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+-TO-DO-LIST - The AWESOME TO-DO-LIST PROJECT is my first Microverse TO-DO-LIST Project build using ES6 syntaxes and modules. In this project, we use HTML, CSS, JavaScript ES6 Modules, and Webpack bundler by adding an index, JS, and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,7 +50,7 @@
 - Delete TO-DO-LIST
 - Drag TO-DO-LIST
 - Edith List Item
-- Preserve list item in the local storage area
+- Preserve list items in the local storage area
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +63,7 @@
 3. Web Browser
 4. Git
 5. Code Editor
-6. Setup Webpack using npm package manager
+6. Setup Webpack using the npm package manager
 
 ### Setup
 
@@ -115,7 +115,7 @@ To run the project,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/efmomoh/TO-DO-LIST/tree/master/dist)
+- [Live Demo Link](https://efmomoh.github.io/TO-DO-LIST/)
 
 ## 👥 Author <a name="authors"></a>
 
