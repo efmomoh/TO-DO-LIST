@@ -2,13 +2,13 @@
 
 import "./style.css";
 import { initTodoList } from "./newFun.js";
+import "./update.js";
 
 let tasks = [];
 
 const taskList = document.getElementById("task-list");
 const addTaskButton = document.querySelector("#add-task-btn");
 const newTaskInput = document.getElementById("new-task");
-const clearListButton = document.getElementById("clear-list");
 
 const saveTasksToLocalStorage = () => {
   localStorage.setItem("tasks", JSON.stringify(tasks));
@@ -56,16 +56,3 @@ addTaskButton.addEventListener("click", () => {
     newTaskInput.value = "";
   }
 });
-
-clearListButton.addEventListener("click", () => {
-  tasks = [];
-  updateIndexes();
-  saveTasksToLocalStorage();
-  performJob();
-});
-
-const savedTasks = JSON.parse(localStorage.getItem("tasks"));
-tasks = savedTasks || [];
-
-updateIndexes();
-performJob();
