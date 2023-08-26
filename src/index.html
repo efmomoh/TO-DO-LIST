@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Awesome To-Do List</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/bd260a0fea.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  
-  <section>
-    <div id="todo-list">
-      <h1>To-Do List<i class="fa-solid fa-arrows-rotate"></i></h1>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Awesome To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bd260a0fea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div id="todo-list">
+        <h1>To-Do List<i class="fa-solid fa-arrows-rotate"></i></h1>
 
-      <div class="add-task-wrapper">
-        <input type="text" id="new-task" placeholder="Add a task ...">
+        <div class="add-task-wrapper">
+          <input type="text" id="new-task" placeholder="Add a task ..." />
           <button type="submit" id="add-task-btn">Add Task</button>
+        </div>
+
+        <div class="me-1">
+          <ul id="task-list" class="drag-list"></ul>
+        </div>
+
+        <button id="clear-list">
+          Clear all completed
+        </button>
       </div>
+    </section>
 
-
-      <div class="me-1">
-        <ul id="task-list" class="drag-list"></ul>
-      </div>
-
-      <button id="clear-list">Clear all completed</button>
-    </div>
-  </section>
-
-  <script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
