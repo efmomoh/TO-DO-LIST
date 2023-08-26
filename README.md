@@ -12,9 +12,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-
-<!-- - [🚀 Live Demo ](#-live-demo-) -->
-
+- [🚀 Live Demo ](#-live-demo-)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -24,7 +22,7 @@
 
 # 📖 HTML/CSS/JavaScript using Webpack Bundler [TO-DO-LIST]<a name="about-project"></a>
 
--TO-DO-LIST - The Awesome Books page is my first Microverse Awesome Books project using ES6 syntaxes and modules. In this project, we use HTML, CSS, and JavaScript and ES6 Modules and Webpack bundler by adding an index, JS and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+-TO-DO-LIST - The AWESOME TO-DO-LIST PROJECT is my first Microverse TO-DO-LIST Project build using ES6 syntaxes and modules. In this project, we use HTML, CSS, JavaScript and ES6 Modules and Webpack bundler by adding an index, JS, and CSS file, I also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,6 +50,7 @@
 - Delete TO-DO-LIST
 - Drag TO-DO-LIST
 - Edith List Item
+- Preserve list item in the local storage area
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,15 +63,15 @@
 3. Web Browser
 4. Git
 5. Code Editor
-6. Setup Webpack using npm
+6. Setup Webpack using npm package manager
 
 ### Setup
 
 Clone this repository to your desired folder Enter the following commands in the terminal:
 
 ```sh
-  git clone git@github.com:efmomoh/Webpack-demo.git
-  cd Webpack-demo
+  git clone git@github.com:efmomoh/TO-DO-LIST.git
+  cd TO-DO-LIST
 ```
 
 ### Install
@@ -89,21 +88,34 @@ Install this project with the following command in the terminal:
 To run the project,
 
 ```sh
-  Open the browser and enter the address of the index.html file from your computer/server
+  - Open the browser and enter the address of the index.html file from your computer/server
+  - Run: npm start for webpack dev environment
+
 ```
 
-### Run tests
+### Run tests (Webpack & Linters)
 
 ```sh
-   1. npx hint.
-   2. npx stylelint "**/*.{css,scss}"
-   3. npm run build
-   4. npm start
+    1. node -v
+    2. npm -v
+    3. npm init -y
+    4. npx eslint --init
+    5. npm install webpack webpack-cli --save-dev
+    6. npm install --save lodash
+    7. npm install --save-dev(I Installs a package for development purposes)
+    8. npm save --save (Installs a package that bundles into your production bundle)
+    9. npm install --save-dev html-webpack-plugin
+    10. npx webpack --mode=development
+    11. npm webpack --config webpack.config.js
+    12. npx hint.
+   13. npx stylelint "**/*.{css,scss}"
+   14. npm run build
+   15. npm start
 ```
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://efmomoh.github.io/demo-feature-1/) -->
+- [Live Demo Link](https://github.com/efmomoh/TO-DO-LIST/tree/master/dist)
 
 ## 👥 Author <a name="authors"></a>
 
