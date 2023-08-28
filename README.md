@@ -70,7 +70,7 @@
 Clone this repository to your desired folder Enter the following commands in the terminal:
 
 ```sh
-  git clone git@github.com:efmomoh/TO-DO-LIST.git
+  git clone git@github.com:efmomoh/Webpack-demo.git
   cd TO-DO-LIST
 ```
 
@@ -115,7 +115,7 @@ To run the project,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://efmomoh.github.io/TO-DO-LIST/)
+- [Live Demo Link](https://efmomoh.github.io/Webpack-demo/dist)
 
 ## 👥 Author <a name="authors"></a>
 
