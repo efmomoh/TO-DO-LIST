@@ -115,7 +115,7 @@ To run the project,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://efmomoh.github.io/TO-DO-LIST/dist)
+- [Live Demo Link](https://efmomoh.github.io/TO-DO-LIST/dist/)
 
 ## 👥 Author <a name="authors"></a>
 
